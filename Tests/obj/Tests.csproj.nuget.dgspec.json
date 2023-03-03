@@ -1,17 +1,164 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Melanie\\NetProjects\\PalominoM\\ETR\\Tests\\Tests.csproj": {}
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Tests\\Tests.csproj": {}
   },
   "projects": {
-    "D:\\Melanie\\NetProjects\\PalominoM\\ETR\\Tests\\Tests.csproj": {
+    "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Melanie\\NetProjects\\PalominoM\\ETR\\Tests\\Tests.csproj",
-        "projectName": "Tests",
-        "projectPath": "D:\\Melanie\\NetProjects\\PalominoM\\ETR\\Tests\\Tests.csproj",
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
-        "outputPath": "D:\\Melanie\\NetProjects\\PalominoM\\ETR\\Tests\\obj\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\ETRAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\ETRAPI.csproj",
+        "projectName": "ETRAPI",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\ETRAPI.csproj",
+        "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj"
+              },
+              "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +186,162 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Tests\\Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\Tests\\Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Tests\\Tests.csproj",
+        "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\ETRAPI.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\ETRAPI.csproj"
+              },
+              "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj"
+              },
+              "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.SDK": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
