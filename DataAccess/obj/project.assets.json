@@ -535,11 +535,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
-      "outputPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\obj\\",
+      "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -556,8 +556,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj": {
-              "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj"
+            "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
+              "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj"
             }
           }
         }

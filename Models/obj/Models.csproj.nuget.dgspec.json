@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj": {}
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {}
   },
   "projects": {
-    "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj": {
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
-        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\obj\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",

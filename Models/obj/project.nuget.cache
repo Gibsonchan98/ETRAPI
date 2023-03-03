@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UZE2Q2D7vJj/S8fBEYGsErs8gVo8p/H2wiFNJ5PzcoA+ZjByib8RlvsnnCl0oOsvlIh67pmgsjnYXM8/bJkUUg==",
+  "dgSpecHash": "PvT82hCE484ocLyNpPBhV4phsZaRrTWF+IJ5pfarVqck/+Y6Sto7cWXiRQEXXKWBK0MXYUe/K64feCiKHavMzw==",
   "success": true,
-  "projectFilePath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj",
+  "projectFilePath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

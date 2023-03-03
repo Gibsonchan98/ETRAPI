@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OVo1LAiWIU4ThMVAcQdVoqHj4MpRgqjFO/sS2+jbWhz9CvfwjyRACdQLKnqIZyK0E/LsC110YKGXekdZjnoU0g==",
+  "dgSpecHash": "ptJIhuCRkmT8uUBnnKwEu10aiAqHNrUp6Gv4FAf3+0HWxD/g7CVWvPb/WrWgwOxgXaM5fIbtMxQAVmvZlrZ1og==",
   "success": true,
-  "projectFilePath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Services\\Services.csproj",
+  "projectFilePath": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Melanie\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Melanie\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

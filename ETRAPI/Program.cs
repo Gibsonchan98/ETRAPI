@@ -60,6 +60,22 @@ app.MapGet("/login", ([FromQuery] string workerID, [FromQuery] string Password, 
         return null;
 });
 
+//Create account
+app.MapPost("createAccount", ([FromQuery] string firstname, [FromQuery] string lastname,
+    [FromQuery] char JobPosition,[FromQuery] int workerID, [FromQuery] string Password, [FromServices] AccountServices service)=>{
+    if(JobPosition != ' ' && workerID != 0 && Password != null){
+        Account acct = new();
+        acct.firstName = firstname;
+        acct.lastName = lastname;
+        acct.workerType = JobPosition;
+        acct.workId = workerID;
+        acct.password = Password;
+        return Results.Created("/createAccount", service.newAccount(acct));
+    }
+    return Results.BadRequest("Inputs are not valid or account already exists");
+    
+});
+
 //submit ticket
 app.MapPost("/submitTicket",([FromBody] Ticket ticket, TicketServices service) => {
     return Results.Created("/submitTicket", service.submitTicket(ticket));

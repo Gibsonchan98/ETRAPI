@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Services\\Services.csproj": {}
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj": {}
   },
   "projects": {
-    "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\DataAccess.csproj": {
+    "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
-        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\obj\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj": {
-                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj"
+              "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj": {
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
-        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\obj\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Services\\Services.csproj": {
+    "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Services\\Services.csproj",
+        "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
-        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Services\\obj\\",
+        "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,11 +152,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\DataAccess\\DataAccess.csproj"
+              "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj": {
-                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPIProj\\ETR\\Models\\Models.csproj"
+              "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
+                "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj"
               }
             }
           }
