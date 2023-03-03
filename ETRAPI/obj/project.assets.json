@@ -1018,40 +1018,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Melanie\\.nuget\\packages\\": {}
+    "C:\\Users\\tiger\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\ETRAPI.csproj",
+      "projectUniqueName": "D:\\Projects\\ETRAPI\\ETRAPI\\ETRAPI.csproj",
       "projectName": "ETRAPI",
-      "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\ETRAPI.csproj",
-      "packagesPath": "C:\\Users\\Melanie\\.nuget\\packages\\",
-      "outputPath": "D:\\Melanie\\NetProjects\\ETRAPI\\ETRAPI\\obj\\",
+      "projectPath": "D:\\Projects\\ETRAPI\\ETRAPI\\ETRAPI.csproj",
+      "packagesPath": "C:\\Users\\tiger\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\ETRAPI\\ETRAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Melanie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\tiger\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\DataAccess\\DataAccess.csproj"
+            "D:\\Projects\\ETRAPI\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\Projects\\ETRAPI\\DataAccess\\DataAccess.csproj"
             },
-            "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj": {
-              "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Models\\Models.csproj"
+            "D:\\Projects\\ETRAPI\\Models\\Models.csproj": {
+              "projectPath": "D:\\Projects\\ETRAPI\\Models\\Models.csproj"
             },
-            "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj": {
-              "projectPath": "D:\\Melanie\\NetProjects\\ETRAPI\\Services\\Services.csproj"
+            "D:\\Projects\\ETRAPI\\Services\\Services.csproj": {
+              "projectPath": "D:\\Projects\\ETRAPI\\Services\\Services.csproj"
             }
           }
         }
@@ -1094,7 +1092,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

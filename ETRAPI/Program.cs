@@ -77,13 +77,14 @@ app.MapPost("createAccount", ([FromQuery] string firstname, [FromQuery] string l
 });
 
 //submit ticket
-app.MapPost("/submitTicket",([FromBody] Ticket ticket, TicketServices service) => {
+app.MapPost("/submitTicket",([FromQuery] int workerID, [FromQuery] decimal amount, [FromQuery] string description, TicketServices service) => {
+    Ticket ticket = new(workerID, amount, description);
     return Results.Created("/submitTicket", service.submitTicket(ticket));
 });
 
 //promote or demote employees
-app.MapPut("/reviseEmployee", ([FromQuery] int employeeID, AccountServices serv) => {
-    return Results.Created("/reviseEmployee", serv.employeeRevision(employeeID) );
+app.MapPut("/reviseEmployee", ([FromQuery] int employeeID, [FromQuery] char promotePosition, AccountServices serv) => {
+    return Results.Created("/reviseEmployee", serv.employeeRevision(employeeID, promotePosition) );
 });
 
 

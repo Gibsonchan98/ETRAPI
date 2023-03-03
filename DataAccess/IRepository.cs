@@ -37,4 +37,6 @@ public interface IRepository{
     void createNewAccount(Account accountToCreate);
 
     Account checkExistingAccount(int id, string? pwd);
+
+    Account updateAccount(Account updatedAccount);
 }
